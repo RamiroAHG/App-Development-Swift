@@ -71,3 +71,10 @@ struct RewardsView: View {
         .cornerRadius(16)
     }
 }
+#Preview {
+    let testSession = UserSession()
+    testSession.totalPoints = 120   // preview example
+    
+    return RewardsView()
+        .environmentObject(testSession)
+}

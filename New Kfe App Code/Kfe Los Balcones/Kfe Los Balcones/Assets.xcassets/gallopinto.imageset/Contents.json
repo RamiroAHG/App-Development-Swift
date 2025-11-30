@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "How-to-Make-Gallo-Pinto-Costa-Ricas-Famous-Rice-and-Beans-Recipe.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "How-to-Make-Gallo-Pinto-Costa-Ricas-Famous-Rice-and-Beans-Recipe 1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "How-to-Make-Gallo-Pinto-Costa-Ricas-Famous-Rice-and-Beans-Recipe 2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

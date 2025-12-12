@@ -35,6 +35,7 @@ struct CartView: View {
                             }
                         }
                     }
+                    .onDelete(perform: deleteItems)   // 👈 slide-to-delete
                 }
                 .listStyle(.plain)
                 
@@ -95,5 +96,10 @@ struct CartView: View {
     
     private func quantity(for cartItem: CartItem) -> Int {
         cart.items.first(where: { $0.id == cartItem.id })?.quantity ?? cartItem.quantity
+    }
+    
+    // Slide-to-delete handler
+    private func deleteItems(at offsets: IndexSet) {
+        cart.items.remove(atOffsets: offsets)
     }
 }

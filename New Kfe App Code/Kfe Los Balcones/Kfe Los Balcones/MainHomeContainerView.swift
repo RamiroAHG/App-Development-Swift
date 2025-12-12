@@ -26,6 +26,13 @@ struct MainHomeContainerView: View {
                         }
                     }
                     
+                    ToolbarItem(placement: .topBarTrailing) {
+                        NavigationLink {
+                            RewardsView()
+                        } label: {
+                            Label("\(cart.pointsForCurrentOrder)", systemImage: "star.fill")
+                        }
+                    }
                     // Profile icon (top-left)
                     ToolbarItem(placement: .topBarLeading) {
                         NavigationLink {

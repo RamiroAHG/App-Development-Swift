@@ -45,7 +45,7 @@ struct RewardsView: View {
             }
             .padding()
         }
-        .navigationTitle("Loyalty Rewards")
+        
     }
     
     private var progressToNextReward: Double {
